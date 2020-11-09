@@ -3,7 +3,7 @@ import {Typography, Avatar, Grid, Box} from '@material-ui/core'
 import {makeStyles} from '@material-ui/core/styles'
 import avatar from '../images/Poza_pass.jpg'
 import Typed from 'react-typed'
-import { Translate } from '@material-ui/icons'
+
 
 //CSS Styles
 const useStyles = makeStyles(theme =>({
@@ -57,7 +57,7 @@ const Header = () => {
 
             </Typography>
             <Typography variant="h5" className={classes.subtitle}>
-                <Typed strings={['Web Design', 'Web Development',"Interested to find out more?Let's talk!"]} typeSpeed={60} backSpeed={60} loop/>
+                <Typed strings={['Web Design', 'Web Development',"Let's talk!"]} typeSpeed={60} backSpeed={60} loop/>
 
 
             </Typography>

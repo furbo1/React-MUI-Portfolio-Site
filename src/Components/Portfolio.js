@@ -5,6 +5,7 @@ import {Box, Grid, Card,CardActionArea,CardActions,CardContent,CardMedia,Button,
 import Project1 from '../images/Screenshot_2020-10-19 Luxury homes.jpg'
 import Project2 from '../images/Screenshot_2020-10-19 Simple Life Website.png'
 import Project3 from '../images/Snip20201019_2.png'
+import Project4 from '../images/MovieBooking.png'
 
 const useStyles = makeStyles({
     mainContainer:{
@@ -87,7 +88,7 @@ function Portfolio() {
                                 <Button size='small' color='primary' href='https://github.com/furbo1/Simple-Life-Blog-Portfolio' target="_blank">
                                     Source Code
                                 </Button>
-                                <Button size='small' color='primary 'href='https://furbo1.github.io/Simple-Life-Blog-Portfolio/' target="_blank">
+                                <Button size='small' color='primary' href='https://furbo1.github.io/Simple-Life-Blog-Portfolio/' target="_blank">
                                     Live demo
                                 </Button>
                             </CardActions>
@@ -140,18 +141,18 @@ function Portfolio() {
                 </Grid>
                 <Grid item xs={12} sm={8} md={6}>
                     <Card className={classes.cardContainer}>
-                        <CardActionArea>
+                        <CardActionArea href='https://furbo1.github.io/Movie-Seat-Booking-App-Portfolio/' target="_blank">
                             <CardMedia component='img' 
                             alt='Frist Project'
-                            height='440px'
-                            image={Project1}
+                            height='400px'
+                            image={Project4}
                             />
                             <CardContent>
                                 <Typography gutterBottom variant='h5'>
-                                Project 4
+                                Movie Seat Booking App
                                 </Typography>
                                 <Typography variant='body2' color="textSecondary" component='p'>
-                                Lorem imspum dadadadadadad
+                                For this project I used only HTML, CSS and Vanilla JavaScript. Users are able to select movie, number of seats, and price will update based on selection.
                     
                                 </Typography>
                                 
@@ -159,10 +160,10 @@ function Portfolio() {
                             </CardContent>
                             </CardActionArea>
                             <CardActions>
-                                <Button size='small' color='primary'>
-                                    See Code
+                                <Button size='small' color='primary' href='https://github.com/furbo1/Movie-Seat-Booking-App-Portfolio' target="_blank">
+                                    Source Code
                                 </Button>
-                                <Button size='small' color='primary'>
+                                <Button size='small' color='primary' href='https://furbo1.github.io/Movie-Seat-Booking-App-Portfolio/' target="_blank">
                                     Live demo
                                 </Button>
                             </CardActions>

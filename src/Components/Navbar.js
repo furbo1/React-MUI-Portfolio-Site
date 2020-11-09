@@ -27,7 +27,7 @@ import MenuIcon from '@material-ui/icons/Menu';
 import { makeStyles } from '@material-ui/core/styles';
 import avatar from '../images/Poza_pass.jpg'
 import Footer from './Footer'
-// import Footer from '../Components/Footer'
+
 // CSS Styles
 const useStyles = makeStyles( theme =>({
     menuSliderContiner: {
@@ -104,7 +104,7 @@ const toggleSlider = ((slider, open) =>()=> {
         <>
         
         <Box component="nav">
-            <AppBar position="static" style={{background:"#222"}} >
+            <AppBar position="fixed" style={{background:"#222"}} >
                 <Toolbar>
                     <IconButton onClick={toggleSlider('right',true)}>
                     <MenuIcon style={{color:"tomato"}}/>

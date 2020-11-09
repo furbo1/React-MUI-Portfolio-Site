@@ -22,29 +22,12 @@ const Home = () => {
             params={{
                 particles:{
                     number:{
-                        value:45,
+                        value:100,
                         density:{
-                            enable: false,
+                            enable: true,
                             value_area: 900
                         } 
                     },
-                    shape:{
-                        type: 'circle',
-                        stroke:{
-                            width: 1,
-                            color: 'tomato',
-                        }
-                    },
-                    size:{
-                        value: 6,
-                        random: true,
-                        anim:{
-                            enable:true,
-                            speed:8,
-                            size_min: 0.1,
-                            sync: true
-                        }
-                    }
                 }
             }}
             
