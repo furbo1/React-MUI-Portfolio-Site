@@ -4,7 +4,7 @@ import Navbar from '../Components/Navbar'
 import {TextField, Typography, Button, Grid, Box,createMuiTheme, ThemeProvider, MuiThemeProvider} from '@material-ui/core'
 import TextareaAutosize from '@material-ui/core/TextareaAutosize';
 import SendIcon from '@material-ui/icons/Send'
-import {db} from './Firebase'
+import {db} from '../Firebase'
 
 const useStyles = makeStyles(theme =>({
     form:{
