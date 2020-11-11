@@ -6,6 +6,8 @@ import Project1 from '../images/Screenshot_2020-10-19 Luxury homes.jpg'
 import Project2 from '../images/Screenshot_2020-10-19 Simple Life Website.png'
 import Project3 from '../images/Snip20201019_2.png'
 import Project4 from '../images/MovieBooking.png'
+import Project5 from '../images/MUIReactPortfolio.png'
+import Project6 from '../images/mernblog.jpg'
 
 const useStyles = makeStyles({
     mainContainer:{
@@ -26,6 +28,82 @@ function Portfolio() {
         <Box component='div' className={classes.mainContainer}>
             <Navbar/>
             <Grid container justify="center" >
+            <Grid item xs={12} sm={8} md={6}>
+                    <Card className={classes.cardContainer}>
+                        <CardActionArea href='https://portfolio-59e14.web.app/'  target="_blank">
+                            <CardMedia component='img' 
+                            alt='Frist Project'
+                            height='400px'
+                            image={Project5}
+                            
+                            />
+                            <CardContent>
+                                <Typography gutterBottom variant='h5'>
+                                Portfolio Site
+                                </Typography>
+                                <Typography variant='body2' color="textSecondary" component='p'>
+                                Simple, responsive web site built with React Materializa UI & Bootstrap4.
+                    
+                                </Typography>
+                                
+
+                            </CardContent>
+                            </CardActionArea>
+                            <CardActions>
+                                <Button size='small' color='primary' href='https://github.com/furbo1/React-MUI-Portfolio-Site'  target="_blank">
+                                    Source Code
+                                </Button>
+                                <Button size='small' color='primary' href='https://portfolio-59e14.web.app/'  target="_blank">
+                                    Live demo
+                                </Button>
+                            </CardActions>
+
+
+                            
+
+                        
+                    </Card>
+
+
+                </Grid>
+                <Grid item xs={12} sm={8} md={6}>
+                    <Card className={classes.cardContainer}>
+                        <CardActionArea href='https://furbo1.github.io/Luxury-Estates-Portfolio-site/'  target="_blank">
+                            <CardMedia component='img' 
+                            alt='Frist Project'
+                            height='400px'
+                            image={Project6}
+                            
+                            />
+                            <CardContent>
+                                <Typography gutterBottom variant='h5'>
+                                MERN Blog example
+                                </Typography>
+                                <Typography variant='body2' color="textSecondary" component='p'>
+                                Responsive web site built with Materialize UI, MongoDB, Express JS and Node JS.
+                    
+                                </Typography>
+                                
+
+                            </CardContent>
+                            </CardActionArea>
+                            <CardActions>
+                                <Button size='small' color='primary' href='https://github.com/furbo1/MERN-Blog-Portfolio'  target="_blank">
+                                    Source Code
+                                </Button>
+                                <Button size='small' color='primary' href='https://github.com/furbo1/MERN-Blog-Portfolio'  target="_blank">
+                                    Live demo
+                                </Button>
+                            </CardActions>
+
+
+                            
+
+                        
+                    </Card>
+
+
+                </Grid>
                 <Grid item xs={12} sm={8} md={6}>
                     <Card className={classes.cardContainer}>
                         <CardActionArea href='https://furbo1.github.io/Luxury-Estates-Portfolio-site/'  target="_blank">
