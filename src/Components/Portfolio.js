@@ -3,7 +3,7 @@ import Navbar from '../Components/Navbar'
 import {makeStyles} from '@material-ui/core/styles'
 import {Box, Grid, Card,CardActionArea,CardActions,CardContent,CardMedia,Button,Typography } from '@material-ui/core'
 import Project1 from '../images/realestate.jpg'
-import Project2 from '../images/Screenshot_2020-10-19 Simple Life Website.png'
+import Project2 from '../images/wlmt.png'
 import Project3 from '../images/Snip20201019_2.png'
 import Project4 from '../images/MovieBooking.png'
 import Project5 from '../images/MUIReactPortfolio.png'
@@ -32,6 +32,43 @@ function Portfolio() {
             <Grid container justify="center" >
             <Grid item xs={12} sm={8} md={6}>
                     <Card className={classes.cardContainer}>
+                        <CardActionArea href='https://walmart-scraper.herokuapp.com/' target="_blank">
+                            <CardMedia component='img' 
+                            alt='Frist Project'
+                            height='440px'
+                            image={Project2}
+                            />
+                            <CardContent>
+                                <Typography gutterBottom variant='h5'>
+                                Walmart Scraping App
+                                </Typography>
+                                <Typography variant='body2' color="textSecondary" component='p'>
+                                This app is used to scrap products from the Walmart website.The app was built using Node,Express, MongoDB, Puppeteer and Cheerio.
+                    
+                                </Typography>
+                                
+
+                            </CardContent>
+                            </CardActionArea>
+                            <CardActions>
+                                <Button size='small' color='primary' href='https://github.com/furbo1/walmart-scrapper' target="_blank">
+                                    Source Code
+                                </Button>
+                                <Button size='small' color='primary' href='https://walmart-scraper.herokuapp.com/' target="_blank">
+                                    Live demo
+                                </Button>
+                            </CardActions>
+
+
+                            
+
+                        
+                    </Card>
+
+
+                </Grid>
+            <Grid item xs={12} sm={8} md={6}>
+                    <Card className={classes.cardContainer}>
                         <CardActionArea>
                             <CardMedia component='img' 
                             alt='Frist Project'
@@ -40,7 +77,7 @@ function Portfolio() {
                             />
                             <CardContent>
                                 <Typography gutterBottom variant='h5'>
-                                Project 5
+                                Face Detecting App
                                 </Typography>
                                 <Typography variant='body2' color="textSecondary" component='p'>
                                 Smart brain AI application using Carifai API to detect faces from pictures. Built with React,Express,Node & PostgresQL.
@@ -91,7 +128,7 @@ function Portfolio() {
                                 <Button size='small' color='primary' href='https://github.com/furbo1/UD-FED-Travel-App-Portfolio' target="_blank">
                                     See Code
                                 </Button>
-                                <Button size='small' color='primary' href='https://github.com/furbo1/UD-FED-Travel-App-Portfolio' target="_blank">
+                                <Button size='small' color='primary' href='https://travelappv2-r5t946mib.vercel.app/' target="_blank">
                                     Live demo
                                 </Button>
                             </CardActions>
@@ -104,7 +141,7 @@ function Portfolio() {
                         <CardActionArea href='https://alexcocan.com/'  target="_blank">
                             <CardMedia component='img' 
                             alt='Frist Project'
-                            height='400px'
+                            height='440px'
                             image={Project5}
                             
                             />
@@ -113,7 +150,7 @@ function Portfolio() {
                                 Portfolio Site
                                 </Typography>
                                 <Typography variant='body2' color="textSecondary" component='p'>
-                                Responsive web site built with React Materialize UI & Bootstrap4.
+                                Responsive Portfolio web site built with React Materialize UI, Bootstrap4, Emailjs and deployed on Firebase.
                     
                                 </Typography>
                                 
@@ -213,43 +250,7 @@ function Portfolio() {
 
 
                 </Grid>
-                <Grid item xs={12} sm={8} md={6}>
-                    <Card className={classes.cardContainer}>
-                        <CardActionArea href='https://furbo1.github.io/Simple-Life-Blog-Portfolio/' target="_blank">
-                            <CardMedia component='img' 
-                            alt='Frist Project'
-                            height='400px'
-                            image={Project2}
-                            />
-                            <CardContent>
-                                <Typography gutterBottom variant='h5'>
-                                Simple Life Blog
-                                </Typography>
-                                <Typography variant='body2' color="textSecondary" component='p'>
-                                A simple and responsive three page blog, built with only with HTML and CSS.
-                    
-                                </Typography>
-                                
-
-                            </CardContent>
-                            </CardActionArea>
-                            <CardActions>
-                                <Button size='small' color='primary' href='https://github.com/furbo1/Simple-Life-Blog-Portfolio' target="_blank">
-                                    Source Code
-                                </Button>
-                                <Button size='small' color='primary' href='https://furbo1.github.io/Simple-Life-Blog-Portfolio/' target="_blank">
-                                    Live demo
-                                </Button>
-                            </CardActions>
-
-
-                            
-
-                        
-                    </Card>
-
-
-                </Grid>
+                
                 <Grid item xs={12} sm={8} md={6}>
                     <Card className={classes.cardContainer}>
                         <CardActionArea href='https://furbo1.github.io/Exchange-Rate-Calculator-Portfolio/' target="_blank">
